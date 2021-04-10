@@ -1,0 +1,1 @@
+python -u main.py --table_dir ../table/ --input ../data/input.txt --output ../data/output_bi.txt --train ../corpus/news/sina_data.pkl --save ../model/bigram.pkl --mode test --model bigram

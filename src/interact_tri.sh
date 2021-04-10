@@ -1,0 +1,1 @@
+python main.py --table_dir ../table/  --load ../model/trigram.pkl --mode interact --model trigram

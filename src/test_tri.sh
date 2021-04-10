@@ -1,0 +1,1 @@
+python main.py --table_dir ../table/ --input ../data/input.txt --output ../data/output_tri.txt  --load ../model/trigram.pkl --model trigram

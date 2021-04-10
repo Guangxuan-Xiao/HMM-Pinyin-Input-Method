@@ -1,0 +1,1 @@
+python main.py --table_dir ../table/  --load ../model/quadgram.pkl --mode interact --model quadgram

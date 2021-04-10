@@ -1,0 +1,4 @@
+python -u eval.py --gt ../corpus/news/sina_test.pkl --inputs ../corpus/news/sina_inputs.pkl --table_dir ../table/ --train ../corpus/news/sina_train.pkl --model trigram --save ../model/tri_test.pkl --lamb 0 0 1 | tee ../log/eval_tri_001.log
+python -u eval.py --gt ../corpus/news/sina_test.pkl --inputs ../corpus/news/sina_inputs.pkl --table_dir ../table/ --train ../corpus/news/sina_train.pkl --model trigram --load ../model/tri_test.pkl --lamb 1 1 1 | tee ../log/eval_tri_111.log
+python -u eval.py --gt ../corpus/news/sina_test.pkl --inputs ../corpus/news/sina_inputs.pkl --table_dir ../table/ --train ../corpus/news/sina_train.pkl --model trigram --load ../model/tri_test.pkl --lamb 1 2 3 | tee ../log/eval_tri_123.log
+python -u eval.py --gt ../corpus/news/sina_test.pkl --inputs ../corpus/news/sina_inputs.pkl --table_dir ../table/ --train ../corpus/news/sina_train.pkl --model trigram --load ../model/tri_test.pkl --lamb 1 9 9 | tee ../log/eval_tri_199.log

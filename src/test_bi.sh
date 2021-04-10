@@ -1,0 +1,1 @@
+python main.py --table_dir ../table/ --input ../data/input.txt --output ../data/output_bi.txt  --load ../model/bigram.pkl --model bigram
